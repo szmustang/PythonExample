@@ -10,7 +10,7 @@ pygame.init()
 
 win = pygame.display.set_mode((WIDTH, HEIGHT ))
 
-print("Controls: W&S for player 1 and arrow up and down for player 2")
+print("Controls: W&S for player 1 and player 2 arrow up and down for player 2")
 
 ball  = Ball([300,300 ], [0.3,0.1], win, 10, (0,0), (600,600))
 slab  = Slab(win, [10,100], [500, 300], 1, (0, 0), (600, 600))
