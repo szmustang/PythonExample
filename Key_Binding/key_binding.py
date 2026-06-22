@@ -7,4 +7,4 @@ session = Prompt()
 def _(event):
     print("Hello, World")
 
-session.prompt("")
+session.prompt("input ")
